@@ -29,8 +29,8 @@ if __name__ == "__main__":
     volumen = calcular_volumen(r1, r2, h)
     area = calcular_area_superficial(r1, r2, h)
 
-    print("🔹 El volumen total de la figura es:", volumen)
-    print("🔹 El área superficial total de la figura es:", area)
+    print(" El volumen total de la figura es:", volumen)
+    print(" El área superficial total de la figura es:", area)
 ```
 2.Dado la figura de la imagen, desarrolle:
 ![image](https://github.com/user-attachments/assets/a91c37ac-a46c-44ff-ab22-77d2e1e7ff87)
