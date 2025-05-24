@@ -60,8 +60,8 @@ if __name__ == "__main__":
     area = calcular_area_total(r, a, b)
     perimetro = calcular_perimetro_total(r, a, b)
 
-    print("🔹 El área total de la figura es:", area)
-    print("🔹 El perímetro total de la figura es:", perimetro)
+    print(" El área total de la figura es:", area)
+    print(" El perímetro total de la figura es:", perimetro)
 ```
 3.Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 ```python
@@ -87,7 +87,7 @@ if __name__ == "__main__":
     k = int(input("Ingrese la cantidad de pollitos: "))
 
     total_kg = calcular_carne_aves(n, m, k)
-    print(f"🔸 La cantidad total de carne es: {total_kg} kg")
+    print("La cantidad total de carne es: " + str(total_kg) + " kg")
 ```
 4.Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
 ```python
@@ -111,7 +111,7 @@ if __name__ == "__main__":
     n = int(input("Ingrese el número de meses: "))
 
     valor_final = calcular_valor_prestamo(C, i, n)
-    print(f"📈 El valor final del préstamo después de {n} meses es: {valor_final:.2f}")
+print("El valor final del préstamo después de " + str(n) + " meses es: " + str(round(valor_final, 2)))
 ```
 5.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
 ```python
